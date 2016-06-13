@@ -16,7 +16,7 @@ public class JWTFunctionTest {
 		
 		JWTBuilder builder = new JWTBuilder(key);
 		
-		Map<String, Object> claims = new HashMap();
+		Map<String, Object> claims = new HashMap<>();
 		claims.put("username", "Hello");
 		claims.put("id", "666");
 		
